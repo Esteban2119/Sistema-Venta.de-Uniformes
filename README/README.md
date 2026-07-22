@@ -13,8 +13,6 @@ Esta arquitectura permite separar claramente las responsabilidades de cada compo
 
 El sistema utiliza una combinación de:
 
-- **Arquitectura Cliente - Servidor**
-- **Arquitectura por Capas**
 
 Ambas trabajan juntas para lograr una aplicación organizada, segura y fácil de mantener.
 
@@ -22,7 +20,7 @@ Ambas trabajan juntas para lograr una aplicación organizada, segura y fácil de
 
 ## Arquitectura Cliente - Servidor
 
-Esta arquitectura separa la aplicación en un **cliente**, encargado de la interfaz de usuario, y un **servidor**, encargado de procesar la información y la lógica del sistema.
+Separa la aplicación en un **cliente**, encargado de la interfaz de usuario, y un **servidor**, encargado de procesar la información y la lógica del sistema.
 
 
 Frontend
@@ -58,7 +56,7 @@ Acceso a Datos
       ↓
 Base de Datos
 
-Capas principales:
+## Capas principales:
 Presentación: Interfaz desarrollada en React, TypeScript y CSS.
 Lógica del Negocio: Backend con Node.js, Express y TypeScript encargado de procesos, validaciones y autenticación JWT.
 Acceso a Datos: Comunicación con PostgreSQL mediante consultas y operaciones CRUD.
@@ -108,7 +106,6 @@ SistemaVentaUniformes/
 * React
 * TypeScript
 * CSS
-* Axios (consumo de API REST)
 
 El frontend es responsable de la interfaz gráfica, interacción con el usuario y comunicación con el backend.
 
@@ -160,7 +157,6 @@ frontend/
 
 El backend contiene la lógica del negocio, gestión de usuarios, autenticación, validaciones y comunicación con la base de datos.
 
-Utiliza una arquitectura modular basada en capas para mantener un código organizado y escalable.
 
 ## Arquitectura de carpetas
 
