@@ -1,19 +1,27 @@
-# Node
+# Dependencias
 node_modules/
-dist/
-.env
-
-# Frontend
 frontend/node_modules/
-frontend/dist/
-
-# Backend
 backend/node_modules/
+
+# Compilación
+dist/
+build/
+frontend/dist/
 backend/dist/
+
+# Variables de entorno
+.env
+.env.local
+.env.development
+.env.production
 
 # Logs
 *.log
 
-# Sistema
+# Archivos del sistema
 .DS_Store
 Thumbs.db
+
+# Editor
+.vscode/
+.idea/
